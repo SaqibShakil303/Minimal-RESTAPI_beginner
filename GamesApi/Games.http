@@ -1,0 +1,27 @@
+GET http://localhost:5118/Games
+
+###
+GET http://localhost:5118/Games/1
+
+###
+POST http://localhost:5118/Games
+Content-Type: application/json
+
+{
+    "name": "Mortal Kombat 11",
+    "genre": "Fighting",
+    "price": 120.56,
+    "releaseDate": "2017-01-01"
+}
+
+#
+##
+PUT http://localhost:5118/Games/1
+Content-Type: application/json
+
+ {
+    "name": "GTA 5 Online",
+    "genre": "Role Play",
+    "price": 99.9,
+    "releaseDate": "2012-09-30"
+  }
